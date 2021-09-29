@@ -11,6 +11,11 @@
 5. [Referencias](#Referencias-mag)
 6. [Autores](#Autores-black_nib)
 
+## Requisitos :newspaper:
+- Contar con el servicio de Code Engine y tener un [proyecto](https://cloud.ibm.com/codeengine/create/project)
+- Configure su entorno [CLI de Code Engine](https://cloud.ibm.com/docs/codeengine?topic=codeengine-install-cli) o utilice [IBM Cloud Shell](https://cloud.ibm.com/shell)
+
+
 ## Crear aplicación cronoapp :hourglass:
 La aplicación cronoapp registrará cada evento a medida que llegue, mostrando el conjunto completo de encabezados HTTP y la carga útil del cuerpo HTTP. Esta aplicación extrae una imagen que se llama cron que está disponible en Docker Hub público y siempre tiene al menos una instancia en ejecución. Para crear la aplicación a traves de *IBM Cloud Shell*, siga los pasos mostrados a continuación:
 1. Asegurese de estar en el grupo de recursos donde se encuentra la instancia de Code Engine:
@@ -104,12 +109,7 @@ Este comando le deberá otorgar la siguiente información
 
  <p align=center><img width="950" src=".github/prueba.png"></p>
  <br />
- 
 
-
-## Requisitos :newspaper:
-- Contar con el servicio de Code Engine y tener un [proyecto](https://cloud.ibm.com/codeengine/create/project)
-- Configure su entorno [CLI de Code Engine](https://cloud.ibm.com/docs/codeengine?topic=codeengine-install-cli) o utilice [IBM Cloud Shell](https://cloud.ibm.com/shell)
 
 ## Referencias :mag:
 
