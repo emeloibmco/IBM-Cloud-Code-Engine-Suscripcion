@@ -69,6 +69,8 @@ Para crear la suscripción mediante esta opción tenga en cuenta los siguientes 
  * ```Path```; Seleccione la versión de la aplicación (Si es necesario).
  * Finalmente de click en crear.
 
+ <p align=center><img width="950" src=".github/consola.gif"></p>
+ <br />
 
 
  
