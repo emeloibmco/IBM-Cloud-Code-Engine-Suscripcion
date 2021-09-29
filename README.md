@@ -61,7 +61,10 @@ Para crear la suscripcion mediante esta opcion tenga en cuenta los siguientes pa
  * ```Name```: Elija un nombre unico para la suscripcion
  * ```Event attributes (optional)```:En esta casilla puede adicionar pares clave-valor los cuales son asignados a cada evento y se convierten en metadatos que le permitiran comprender rapidamente los eventos realizados.
  * ```Day pattern```: Seleccione el patron diario con el cual quiere que se repitan los eventos generados por la suscripcion.
+ * ```Hour pattern```: Seleccione el patron horario con el cual quiere que se repitan los eventos generados por la suscripcion.
+ * ```Minute pattern```: Seleccione el patron horario con el cual quiere que se repitan los eventos generados por la suscripcion.
  * 
+ 
  
    
 
