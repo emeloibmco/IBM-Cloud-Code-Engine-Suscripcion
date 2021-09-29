@@ -102,7 +102,9 @@ ibmcloud ce app logs --name <NOMBRE_APP>
 
 Este comando le deberá otorgar la siguiente información
 
-
+ <p align=center><img width="950" src=".github/prueba.png"></p>
+ <br />
+ 
 
 
 ## Requisitos :newspaper:
