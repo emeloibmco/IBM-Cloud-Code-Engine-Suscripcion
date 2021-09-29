@@ -49,21 +49,28 @@ Por otro lado, si desea realizarlo desde la consola de IBM, siga los pasos mostr
  <br />
 
 ## Crear la suscripción
-Una vez creada la aplicacion puede pasar a crear la suscripcion, esto se puede realizar mediante la consola de *IBM Cloud* o mediante el *IBM Cloud Shell*, estos dos procesos se explicaran a continuacion.
+Una vez creada la aplicación puede pasar a crear la suscripción, esto se puede realizar mediante la consola de *IBM Cloud* o mediante el *IBM Cloud Shell*, estos dos procesos se explicarán a continuación.
 
-### Opcion 1 consola *IBM Cloud*
-Para crear la suscripcion mediante esta opcion tenga en cuenta los siguientes pasos:
+### Opción 1 consola *IBM Cloud*
+Para crear la suscripción mediante esta opción tenga en cuenta los siguientes pasos:
 
-1. Desde el Dashboard de *IBM Cloud* seleccione el menu de navegacion o menu de hamburguesa y de click sobre la opcion de '''Code Engine'''
-2. Esto lo llevara a la ventana principal de Code Engine, aqui de click sobre projectos y seleccione el proyecto en donde desplego la aplicacion creada anteriormente.
+1. Desde el Dashboard de *IBM Cloud* seleccione el menú de navegación o menú de hamburguesa y de click sobre la opción de '''Code Engine'''
+2. Esto lo llevara a la ventana principal de Code Engine, aquí de click sobre proyectos y seleccione el proyecto en donde desplego la aplicación creada anteriormente.
 3. En la ventana del proyecto de click sobre '''Suscripciones a eventos/Event subscriptions''' y de click sobre '''Crear'''.
-4. Esto lo llevara a la ventana de configuracion para la suscripcion a eventos, aqui complete la informacion necesaria de la siguiente manera:
- * ```Name```: Elija un nombre unico para la suscripcion
- * ```Event attributes (optional)```:En esta casilla puede adicionar pares clave-valor los cuales son asignados a cada evento y se convierten en metadatos que le permitiran comprender rapidamente los eventos realizados.
- * ```Day pattern```: Seleccione el patron diario con el cual quiere que se repitan los eventos generados por la suscripcion.
- * ```Hour pattern```: Seleccione el patron horario con el cual quiere que se repitan los eventos generados por la suscripcion.
- * ```Minute pattern```: Seleccione el patron horario con el cual quiere que se repitan los eventos generados por la suscripcion.
- * 
+4. Esto lo llevara a la ventana de configuración para la suscripción a eventos, aquí complete la información necesaria de la siguiente manera:
+ * ```Name```: Elija un nombre único para la suscripción
+ * ```Event attributes (optional)```: En esta casilla puede adicionar pares clave-valor los cuales son asignados a cada evento y se convierten en metadatos que le permitirán comprender rápidamente los eventos realizados.
+ * ```Day pattern```: Seleccione el patrón diario con el cual quiere que se repitan los eventos generados por la suscripción.
+ * ```Hour pattern```: Seleccione el patrón horario con el cual quiere que se repitan los eventos generados por la suscripción.
+ * ```Minute pattern```: Seleccione el patrón horario con el cual quiere que se repitan los eventos generados por la suscripción.
+ * ```Custom event data (Optional)```: En este espacio puede proporcionar datos para que sean incluidos en el cuerpo del mensaje que se generar con su evento (se pueden seleccionar distintos formatos para los datos).
+ * ```Component type```: Seleccione aplicación ya que la suscripción a eventos se realizará sobre la aplicación creada anteriormente.
+ * ```Name```: Seleccione el nombre de la aplicación creada anteriormente.
+ * ```Path```; Seleccione la versión de la aplicación (Si es necesario).
+ * Finalmente de click en crear.
+
+
+
  
  
    
