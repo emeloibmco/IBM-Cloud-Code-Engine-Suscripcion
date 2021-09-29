@@ -73,7 +73,23 @@ Para crear la suscripción mediante esta opción tenga en cuenta los siguientes 
  <br />
 
 
+### Opción 2 *IBM Cloud Shell*
  
+Para crear la suscripcion mediante el *IBM CLoud Shell* primero debe entender y determinar un intervalo de tiempo para cron, el productor de eventos cron genera eventos a intervalos reguales los cuales se pueden programar por minutos, horas, dias, meses o una combinacion de todos estos como se mostro en la opcion 1.
+
+En el caso de *IBM Cloud Shell* se utiliza el formato ```* * * * *```que significa minuto, hora, dia del mes y dia de la semana. Por ejemplo para programar un evento a mecia noche se utilizaria ```0 0 * * *``` y para programar un evento para cada viernes a media noche seria ```0 0 * * FRI```.
+
+Una vez determinado el intervalo de tiempo y creada la aplicacion se puede pasar a crear la suscripcion, para esto se utiliza el comando ```ibmcloud ce sub cron create```a continaucion se muestra un ejemplo de este comando.
+```
+ ibmcloud ce sub cron create --name cron-sub --destination cron-app --data '{"mydata":"hello world"}' --schedule '* * * * *'
+```
+En este caso se creo una suscripcion de nombre ```cron-sub```en la aplicacion ```cron-app```creada anteriormente. Tambien se añadieron datos en formato JSON los cuales seran desplegados como mensaje cuando ocurra un evento y se programo con el intervalo de tiempo ```* * * * *``` el cual permite mandar un evento cada minuto de cada dia a la aplicacion ```cron-app```.
+
+Para obtener mas informacion sobre la suscripcion utilice el comando
+```
+ibmcloud ce sub cron get -n cron-sub
+```
+
  
    
 
