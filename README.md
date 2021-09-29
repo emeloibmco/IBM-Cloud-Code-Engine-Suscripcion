@@ -54,9 +54,9 @@ Una vez creada la aplicación puede pasar a crear la suscripción, esto se puede
 ### Opción 1 consola *IBM Cloud*
 Para crear la suscripción mediante esta opción tenga en cuenta los siguientes pasos:
 
-1. Desde el Dashboard de *IBM Cloud* seleccione el menú de navegación o menú de hamburguesa y de click sobre la opción de '''Code Engine'''
+1. Desde el Dashboard de *IBM Cloud* seleccione el menú de navegación o menú de hamburguesa y de click sobre la opción de ```Code Engine```
 2. Esto lo llevara a la ventana principal de Code Engine, aquí de click sobre proyectos y seleccione el proyecto en donde desplego la aplicación creada anteriormente.
-3. En la ventana del proyecto de click sobre '''Suscripciones a eventos/Event subscriptions''' y de click sobre '''Crear'''.
+3. En la ventana del proyecto de click sobre ```Suscripciones a eventos/Event subscriptions``` y de click sobre ```Crear```.
 4. Esto lo llevara a la ventana de configuración para la suscripción a eventos, aquí complete la información necesaria de la siguiente manera:
  * ```Name```: Elija un nombre único para la suscripción
  * ```Event attributes (optional)```: En esta casilla puede adicionar pares clave-valor los cuales son asignados a cada evento y se convierten en metadatos que le permitirán comprender rápidamente los eventos realizados.
