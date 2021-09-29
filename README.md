@@ -6,8 +6,8 @@
 
 1. [Requisitos](#Requisitos-newspaper)
 2. [Crear aplicación cronoapp](#Crear-aplicación-cronoapp-hourglass)
-3. [Crear la suscripción](#Crear-la-suscripción)
-4. [Probar la suscripción](#Probar-la-suscripción)
+3. [Crear la suscripción](#Crear-la-suscripción-paperclip)
+4. [Probar la suscripción](#Probar-la-suscripción-arrow_forward)
 5. [Referencias](#Referencias-mag)
 6. [Autores](#Autores-black_nib)
 
@@ -53,7 +53,7 @@ Por otro lado, si desea realizarlo desde la consola de IBM, siga los pasos mostr
   <p align=center><img width="950" src=".github/appcrono.gif"></p>
  <br />
 
-## Crear la suscripción
+## Crear la suscripción :paperclip:
 Una vez creada la aplicación puede pasar a crear la suscripción, esto se puede realizar mediante la consola de *IBM Cloud* o mediante el *IBM Cloud Shell*, estos dos procesos se explicarán a continuación.
 
 ### Opción 1 consola *IBM Cloud*
@@ -98,7 +98,7 @@ ibmcloud ce sub cron get -n cron-sub
  <br />
  
  
-## Probar la suscripción
+## Probar la suscripción :arrow_forward:
 Luego de haber creado la suscripción ya sea mediante la opción 1 o la opción 2 se pueden mirar los registros para comprobar su adecuado funcionamiento, para esto utilice el siguiente comando.
 ```
 ibmcloud ce app logs --name <NOMBRE_APP>
