@@ -89,7 +89,8 @@ Para obtener mas informacion sobre la suscripcion utilice el comando
 ```
 ibmcloud ce sub cron get -n cron-sub
 ```
-
+ <p align=center><img width="950" src=".github/shell.gif"></p>
+ <br />
  
    
 
