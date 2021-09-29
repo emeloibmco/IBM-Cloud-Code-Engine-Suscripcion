@@ -48,6 +48,23 @@ Por otro lado, si desea realizarlo desde la consola de IBM, siga los pasos mostr
   <p align=center><img width="950" src=".github/appcrono.gif"></p>
  <br />
 
+## Crear la suscripción
+Una vez creada la aplicacion puede pasar a crear la suscripcion, esto se puede realizar mediante la consola de *IBM Cloud* o mediante el *IBM Cloud Shell*, estos dos procesos se explicaran a continuacion.
+
+### Opcion 1 consola *IBM Cloud*
+Para crear la suscripcion mediante esta opcion tenga en cuenta los siguientes pasos:
+
+1. Desde el Dashboard de *IBM Cloud* seleccione el menu de navegacion o menu de hamburguesa y de click sobre la opcion de '''Code Engine'''
+2. Esto lo llevara a la ventana principal de Code Engine, aqui de click sobre projectos y seleccione el proyecto en donde desplego la aplicacion creada anteriormente.
+3. En la ventana del proyecto de click sobre '''Suscripciones a eventos/Event subscriptions''' y de click sobre '''Crear'''.
+4. Esto lo llevara a la ventana de configuracion para la suscripcion a eventos, aqui complete la informacion necesaria de la siguiente manera:
+ * ```Name```: Elija un nombre unico para la suscripcion
+ * ```Event attributes (optional)```:En esta casilla puede adicionar pares clave-valor los cuales son asignados a cada evento y se convierten en metadatos que le permitiran comprender rapidamente los eventos realizados.
+ * ```Day pattern```: Seleccione el patron diario con el cual quiere que se repitan los eventos generados por la suscripcion.
+ * 
+ 
+   
+
 
 
 
